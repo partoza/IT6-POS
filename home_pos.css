@@ -1,0 +1,26 @@
+
+.tab-button {
+    background: transparent;
+    border: none;
+    padding: 8px 15px;
+    font-size: 16px;
+    color: black;
+    border-radius: 5px;
+    transition: all 0.3s ease; /* Smooth transition */
+}
+
+.tab-button:hover {
+    color: #9F6828 !important;
+    font-weight: bold;
+    transform: scale(1.1);
+}
+
+.tab-button.active {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #E3D2BF;
+    border: 2px solid #9F6828;
+    color: #9F6828 !important;
+    font-weight: bold;
+    transform: scale(1.1); /* Slightly enlarges the button */
+}
