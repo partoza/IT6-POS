@@ -21,40 +21,34 @@
                 <?php include 'sidebar_POS.php'; ?>
             </div>
 
-            <!-- Main Content (7 columns) -->
-            <div class="col-7 mt-3">
-                <div class="ms-3">
-                    <div class="d-flex justify-content-start bg-white ps-5 p-2 rounded mt-3">
-                        <button class="btn tab-button active me-3" data-tab="all">All</button>
-                        <button class="btn tab-button me-3" data-tab="coffee">Coffee</button>
-                        <button class="btn tab-button me-3" data-tab="pastry">Pastry</button>
-                        <button class="btn tab-button" data-tab="beverages">Beverages</button>
+            <div class="col-11" id="menu">
+                <div class="row">
+                    <div class="tab-content col-8 mt-3">
+                        <?php include 'menu_section.php'; ?>
                     </div>
-
-                    <div class="tab-content mt-3 text-center">
-                        <div class="tab-pane show active" id="all">All Items</div>
-                        <div class="tab-pane" id="coffee">Coffee Items</div>
-                        <div class="tab-pane" id="pastry">Pastry Items</div>
-                        <div class="tab-pane" id="beverages">Beverage Items</div>
+                    <div class="col-4 mt-3">
+                        <?php include 'current_order_section.php'; ?>
                     </div>
                 </div>
             </div>
 
-            <!-- Order Summary (3 columns) -->
-            <div class="col-4 mt-3">
-                <div class="order-summary p-2 ps-3 bg-white rounded">
-                    <h5>Hello, Jhianne Jose</h5>
-                    <p class="text-muted">Cashier - in charge</p>
-                </div>
-                <div class="mt-3 p-2 ps-3 bg-white rounded">
-                    <h5>Current Order</h5>
+            <div class="col-11 d-none" id="order">
+                <div class="row">
+                    <div class="tab-content col-8 mt-3">
+                        <?php include 'order_section.php'; ?>
+                    </div>
+                    <div class="col-4 mt-3">
+                        <?php include 'current_order_section.php'; ?>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+    <script>
+    </script>
 
-    <script src="home_pos.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="home_pos.js"></script>
 </body>
 
 </html>

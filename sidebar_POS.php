@@ -1,5 +1,5 @@
 <style>
-    .sidebar-item{
+    .sidebar-item {
         transition: all 0.3s ease;
     }
 
@@ -24,7 +24,8 @@
 
         /* Medium screens (md) */
         .sidebar-width {
-            font-size: 9px;;
+            font-size: 9px;
+            ;
             width: 60px !important;
         }
     }
@@ -41,20 +42,19 @@
     <div class="d-flex flex-column align-items-center bg-light shadow p-2 mt-3 sidebar-width position-fixed"
         style="height: 80vh; border-radius: 15px;">
 
-        <div class="menu mt-4 w-100 text-center text-secondary sidebar-item" onclick="showPage('menu')">
+        <div class="menu mt-4 w-100 text-center text-secondary sidebar-item active text-primary"
+            onclick="showPage(this)" data-page="menu">
             <i class="bi bi-list fs-4"></i>
             <div>Menu</div>
         </div>
 
-        <div class="customer w-100 mt-4 text-center text-secondary sidebar-item" onclick="showPage('customer')">
-            <i class="bi bi-person fs-4"></i>
-            <div>Customer</div>
-        </div>
-
-        <div class="order w-100 mt-4 text-center text-secondary sidebar-item" onclick="showPage('order')">
+        <div class="order w-100 mt-4 text-center text-secondary sidebar-item" onclick="showPage(this)"
+            data-page="order">
             <i class="bi bi-cart fs-4"></i>
             <div>Orders</div>
         </div>
+
+
 
         <div class="mt-auto w-100 mb-3 text-center text-secondary sidebar-item">
             <i class="bi bi-box-arrow-right fs-4"></i>
