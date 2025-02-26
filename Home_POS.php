@@ -32,7 +32,7 @@
                 </div>
             </div>
 
-            <div class="col-11 d-none" id="order">
+            <div class="col-11" id="order">
                 <div class="row">
                     <div class="tab-content col-8 mt-3">
                         <?php include 'order_section.php'; ?>

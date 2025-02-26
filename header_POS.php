@@ -47,7 +47,7 @@
             <div class="row">
                 <img src="assets/logo.jpg" alt="KIKS DAVAO POS SYSTEM" class="logo col-5 img-fluid"
                     style="height: 60px; width:80px;">
-                <p class="fw-bold col-7" style="color: #9F6828;">Kiks Davao <br>Point of Sales <br>System </p>
+                <p class="fw-bold col-7 d-flex align-items-center" style="color: #9F6828; margin-bottom: 0px;">Kiks Davao <br>Point of Sales System </p>
             </div>
         </div>
         <div class="col-5">
