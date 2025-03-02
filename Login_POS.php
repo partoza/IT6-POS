@@ -37,17 +37,10 @@
                             <input type="text" class="form-control text-center">
                         </div>
                         <div class="mb-3">
-                            <label class="form-label">Pin Code</label>
-                            <div class="d-flex justify-content-center">
-                                <input type="password" class="form-control text-center mx-1" maxlength="1" style="width: 40px;">
-                                <input type="password" class="form-control text-center mx-1" maxlength="1" style="width: 40px;">
-                                <input type="password" class="form-control text-center mx-1" maxlength="1" style="width: 40px;">
-                                <input type="password" class="form-control text-center mx-1" maxlength="1" style="width: 40px;">
-                                <input type="password" class="form-control text-center mx-1" maxlength="1" style="width: 40px;">
-                                <input type="password" class="form-control text-center mx-1" maxlength="1" style="width: 40px;">
-                            </div>
+                            <label class="form-label">Employee Password</label>
+                            <input type="password" class="form-control text-center">
                         </div>
-                        <button type="submit" class="btn w-100 text-white" style="background-color: #9F6828">Login <i
+                        <button type="submit" class="btn w-100 text-white mt-3" style="background-color: #9F6828">Login <i
                                 class="bi bi-box-arrow-in-right text-white"></i></button>
                     </form>
                 </div>

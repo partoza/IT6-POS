@@ -8,6 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="home_pos.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+
 </head>
 
 <body>
@@ -32,13 +33,13 @@
                 </div>
             </div>
 
-            <div class="col-11" id="order">
+            <div class="col-11 d-none" id="order">
                 <div class="row">
                     <div class="tab-content col-8 mt-3">
                         <?php include 'order_section.php'; ?>
                     </div>
                     <div class="col-4 mt-3">
-                        <?php include 'current_order_section.php'; ?>
+                        <?php include 'orderline.php'; ?>
                     </div>
                 </div>
             </div>

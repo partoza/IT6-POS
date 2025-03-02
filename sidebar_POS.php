@@ -43,17 +43,16 @@
         style="height: 80vh; border-radius: 15px;">
 
         <div class="menu mt-4 w-100 text-center text-secondary sidebar-item active text-primary"
-            onclick="showPage(this)" data-page="menu">
+             data-page="menu">
             <i class="bi bi-list fs-4"></i>
             <div>Menu</div>
         </div>
 
-        <div class="order w-100 mt-4 text-center text-secondary sidebar-item" onclick="showPage(this)"
+        <div class="order w-100 mt-4 text-center text-secondary sidebar-item"
             data-page="order">
             <i class="bi bi-cart fs-4"></i>
             <div>Orders</div>
         </div>
-
 
 
         <div class="mt-auto w-100 mb-3 text-center text-secondary sidebar-item">

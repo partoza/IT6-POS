@@ -6,7 +6,7 @@
     font-size: 16px;
     color: black;
     border-radius: 5px;
-    transition: all 0.1s ease; /* Smooth transition */
+    transition: all 0.1s ease; 
 }
 
 .tab-button:hover {
@@ -16,29 +16,29 @@
 }
 
 .tab-button.active {
-    padding-top: 5px;
-    padding-bottom: 5px;
     background-color: #E3D2BF;
     border: 2px solid #9F6828;
     color: #9F6828 !important;
     font-weight: bold;
-    transform: scale(1.1); /* Slightly enlarges the button */
+    transform: scale(1.1); 
 }
 
-/* Default font size for the content */
+
 .tab-button {
-    font-size: 16px; /* You can set this to whatever default size you prefer */
+    font-size: 16px; 
 }
 
-/* Adjust font size for tablet screens */
 @media (min-width: 600px) and (max-width: 1024px) {
     .tab-button {
-        font-size: 12px; /* Increase the font size for tablet */
+        font-size: 12px; 
     }
 
     .tab-content {
-        font-size: 12px; /* Adjust the content font size as well */
+        font-size: 12px; 
     }
 }
+
+
+
 
 
